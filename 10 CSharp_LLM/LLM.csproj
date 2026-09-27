@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.17763.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>x64</PlatformTarget>
+    <BaseOutputPath>C:\Yohoo\CocoSoSo</BaseOutputPath>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="README.md" />
+  </ItemGroup>
+
+   <ItemGroup>
+    <Compile Include="Core/AdamW.cs"><Link>Core/AdamW.cs</Link></Compile>
+    <Compile Include="Core/DataSet.cs"><Link>Core/DataSet.cs</Link></Compile>
+    <Compile Include="Core/Embedding.cs"><Link>Core/Embedding.cs</Link></Compile>
+    <Compile Include="Core/GELU.cs"><Link>Core/GELU.cs</Link></Compile>
+    <Compile Include="Core/LayerNorm.cs"><Link>Core/LayerNorm.cs</Link></Compile>
+    <Compile Include="Core/Linear.cs"><Link>Core/Linear.cs</Link></Compile>
+    <Compile Include="Core/MatMul.cs"><Link>Core/MatMul.cs</Link></Compile>
+    <Compile Include="Core/NanoGPT.cs"><Link>Core/NanoGPT.cs</Link></Compile>
+    <Compile Include="Core/SelfAttention.cs"><Link>Core/SelfAttention.cs</Link></Compile>
+    <Compile Include="Core/Tensor.cs"><Link>Core/Tensor.cs</Link></Compile>
+    <Compile Include="Core/Tokenizer.cs"><Link>Core/Tokenizer.cs</Link></Compile>
+    <Compile Include="Core/TransformerBlock.cs"><Link>Core/TransformerBlock.cs</Link></Compile>
+    <Compile Include="HtmlConsole.cs" />
+    <Compile Include="MainForm.cs" />
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+
+</Project>

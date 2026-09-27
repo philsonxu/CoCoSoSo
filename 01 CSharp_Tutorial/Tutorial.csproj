@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.17763.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>x64</PlatformTarget>
+    <BaseOutputPath>C:\Yohoo\CocoSoSo</BaseOutputPath>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="01_BasicSyntax\01_HelloWorld.cs" />
+    <Compile Include="01_BasicSyntax\02_VariablesAndConstants.cs" />
+    <Compile Include="01_BasicSyntax\03_Operators.cs" />
+    <Compile Include="01_BasicSyntax\04_ConsoleIO.cs" />
+    <Compile Include="02_DataTypes\01_ValueTypes.cs" />
+    <Compile Include="02_DataTypes\02_ReferenceTypes.cs" />
+    <Compile Include="02_DataTypes\03_EnumAndArray.cs" />
+    <Compile Include="03_ControlFlow\01_ConditionalStatements.cs" />
+    <Compile Include="03_ControlFlow\02_LoopStatements.cs" />
+    <Compile Include="03_ControlFlow\03_Methods.cs" />
+    <Compile Include="04_ClassesAndObjects\01_ClassAndObjectBasics.cs" />
+    <Compile Include="04_ClassesAndObjects\02_StaticAndAccessModifiers.cs" />
+    <Compile Include="05_OOP\01_Encapsulation.cs" />
+    <Compile Include="05_OOP\02_Inheritance.cs" />
+    <Compile Include="05_OOP\03_PolymorphismAndInterface.cs" />
+    <Compile Include="06_Collections\01_NonGenericCollections.cs" />
+    <Compile Include="07_DelegatesEvents\01_DelegatesAndEvents.cs" />
+    <Compile Include="08_Generics\01_GenericsBasics.cs" />
+    <Compile Include="09_ExceptionHandling\01_ExceptionHandling.cs" />
+    <Compile Include="10_FileIO\01_FileIO.cs" />
+  </ItemGroup>
+
+</Project>

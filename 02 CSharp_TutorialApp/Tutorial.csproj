@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.17763.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>x64</PlatformTarget>
+    <BaseOutputPath>C:\Yohoo\CocoSoSo</BaseOutputPath>
+    <!--<EnableDefaultCompileItems>false</EnableDefaultCompileItems>-->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!--
+    <Compile Include="Program.cs" />
+    <Compile Include="HtmlConsole.cs" />
+    <Compile Include="MainForm.cs" />
+    <Compile Include="Chapters\Chapter01.cs" />
+    <Compile Include="Chapters\Chapter02.cs" />
+    <Compile Include="Chapters\Chapter03.cs" />
+    <Compile Include="Chapters\Chapter04.cs" />
+    <Compile Include="Chapters\Chapter05.cs" />
+    <Compile Include="Chapters\Chapter06.cs" />
+    <Compile Include="Chapters\Chapter07.cs" />
+    <Compile Include="Chapters\Chapter08.cs" />
+    <Compile Include="Chapters\Chapter09.cs" />
+    <Compile Include="Chapters\Chapter10.cs" />
+    -->
+  </ItemGroup>
+
+</Project>

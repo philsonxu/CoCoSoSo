@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.17763.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>x64</PlatformTarget>
+    <BaseOutputPath>C:\Yohoo\CocoSoSo</BaseOutputPath>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="OpenCvSharp">
+      <HintPath>Lib\OpenCvSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Samples\01_Basic\HelloOpenCV.cs" />
+    <Compile Include="Samples\01_Basic\ImageIO.cs" />
+    <Compile Include="Samples\01_Basic\PixelAccess.cs" />
+    <Compile Include="Samples\01_Basic\Drawing.cs" />
+    <Compile Include="Samples\01_Basic\ROIAndMask.cs" />
+    <Compile Include="Samples\01_Basic\ColorSpace.cs" />
+    <Compile Include="Samples\02_ImageProcessing\Blurring.cs" />
+    <Compile Include="Samples\02_ImageProcessing\EdgeDetection.cs" />
+    <Compile Include="Samples\02_ImageProcessing\Morphology.cs" />
+    <Compile Include="Samples\02_ImageProcessing\Threshold.cs" />
+    <Compile Include="Samples\02_ImageProcessing\GeometricTransform.cs" />
+    <Compile Include="Samples\02_ImageProcessing\Histogram.cs" />
+    <Compile Include="Samples\03_FeatureAnalysis\Contours.cs" />
+    <Compile Include="Samples\03_FeatureAnalysis\TemplateMatching.cs" />
+    <Compile Include="Samples\03_FeatureAnalysis\HoughTransform.cs" />
+    <Compile Include="Samples\03_FeatureAnalysis\CornerDetection.cs" />
+    <Compile Include="Samples\03_FeatureAnalysis\ConnectedComponents.cs" />
+    <Compile Include="Samples\04_Advanced\FaceDetection.cs" />
+    <Compile Include="Samples\04_Advanced\VideoCapture.cs" />
+    <Compile Include="Samples\04_Advanced\BackgroundSubtraction.cs" />
+    <Compile Include="Samples\04_Advanced\ImageStitching.cs" />
+    <Compile Include="Samples\SampleBase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Data\**\*.*" />
+    <None Include="README.md" />
+  </ItemGroup>
+
+</Project>

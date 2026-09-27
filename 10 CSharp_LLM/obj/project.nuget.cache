@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "enJA8Q7YsPI=",
+  "success": true,
+  "projectFilePath": "C:\\Develop\\CoCoSoSo\\10 CSharp_LLM\\LLM.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\18438\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.17763.57\\microsoft.windows.sdk.net.ref.10.0.17763.57.nupkg.sha512"
+  ],
+  "logs": []
+}

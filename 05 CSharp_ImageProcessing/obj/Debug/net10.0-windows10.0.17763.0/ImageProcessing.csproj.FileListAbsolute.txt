@@ -1,0 +1,17 @@
+C:\Develop\CoCoSoSo\CSharp_ImageProcessing\obj\Debug\net10.0-windows10.0.17763.0\CSharp20ImageProcessing.MainForm.resources
+C:\Develop\CoCoSoSo\CSharp_ImageProcessing\obj\Debug\net10.0-windows10.0.17763.0\ImageProcessing.csproj.GenerateResource.cache
+C:\Develop\CoCoSoSo\CSharp_ImageProcessing\obj\Debug\net10.0-windows10.0.17763.0\ImageProcessing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Develop\CoCoSoSo\CSharp_ImageProcessing\obj\Debug\net10.0-windows10.0.17763.0\ImageProcessing.AssemblyInfoInputs.cache
+C:\Develop\CoCoSoSo\CSharp_ImageProcessing\obj\Debug\net10.0-windows10.0.17763.0\ImageProcessing.AssemblyInfo.cs
+C:\Develop\CoCoSoSo\CSharp_ImageProcessing\obj\Debug\net10.0-windows10.0.17763.0\ImageProcessing.csproj.CoreCompileInputs.cache
+C:\Yohoo\CocoSoSo\Debug\net10.0-windows10.0.17763.0\ImageProcessing.exe
+C:\Yohoo\CocoSoSo\Debug\net10.0-windows10.0.17763.0\ImageProcessing.deps.json
+C:\Yohoo\CocoSoSo\Debug\net10.0-windows10.0.17763.0\ImageProcessing.runtimeconfig.json
+C:\Yohoo\CocoSoSo\Debug\net10.0-windows10.0.17763.0\ImageProcessing.dll
+C:\Yohoo\CocoSoSo\Debug\net10.0-windows10.0.17763.0\ImageProcessing.pdb
+C:\Develop\CoCoSoSo\CSharp_ImageProcessing\obj\Debug\net10.0-windows10.0.17763.0\ImagePro.C60485DA.Up2Date
+C:\Develop\CoCoSoSo\CSharp_ImageProcessing\obj\Debug\net10.0-windows10.0.17763.0\ImageProcessing.dll
+C:\Develop\CoCoSoSo\CSharp_ImageProcessing\obj\Debug\net10.0-windows10.0.17763.0\refint\ImageProcessing.dll
+C:\Develop\CoCoSoSo\CSharp_ImageProcessing\obj\Debug\net10.0-windows10.0.17763.0\ImageProcessing.pdb
+C:\Develop\CoCoSoSo\CSharp_ImageProcessing\obj\Debug\net10.0-windows10.0.17763.0\ImageProcessing.genruntimeconfig.cache
+C:\Develop\CoCoSoSo\CSharp_ImageProcessing\obj\Debug\net10.0-windows10.0.17763.0\ref\ImageProcessing.dll

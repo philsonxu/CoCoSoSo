@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.17763.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>x64</PlatformTarget>
+    <BaseOutputPath>C:\Yohoo\CocoSoSo</BaseOutputPath>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Basic.Webbrowser.cs" />
+    <Compile Include="HtmlConsole.cs" />
+    <Compile Include="MainForm.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="DataStructures\SeqList.cs" />
+    <Compile Include="DataStructures\SingleLinkedList.cs" />
+    <Compile Include="DataStructures\MyStack.cs" />
+    <Compile Include="DataStructures\MyQueue.cs" />
+    <Compile Include="DataStructures\BinarySearchTree.cs" />
+    <Compile Include="DataStructures\SortAlgorithms.cs" />
+    <Compile Include="DataStructures\SearchAlgorithms.cs" />
+    <Compile Include="DataStructures\MyHashtable.cs" />
+    <Compile Include="Demos\SeqListDemo.cs" />
+    <Compile Include="Demos\SingleLinkedListDemo.cs" />
+    <Compile Include="Demos\StackDemo.cs" />
+    <Compile Include="Demos\QueueDemo.cs" />
+    <Compile Include="Demos\BinarySearchTreeDemo.cs" />
+    <Compile Include="Demos\HashtableDemo.cs" />
+    <Compile Include="Demos\SortDemo.cs" />
+    <Compile Include="Demos\SearchDemo.cs" />
+    <Compile Include="Demos\StringMatchDemo.cs" />
+    <Compile Include="Demos\GraphDemo.cs" />
+    <!--<Compile Include="Properties\AssemblyInfo.cs" />-->
+  </ItemGroup>
+
+</Project>

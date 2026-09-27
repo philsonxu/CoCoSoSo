@@ -1,0 +1,15 @@
+C:\Develop\CoCoSoSo\CSharp_AIFull\obj\Debug\net10.0-windows10.0.17763.0\AIFull.GeneratedMSBuildEditorConfig.editorconfig
+C:\Develop\CoCoSoSo\CSharp_AIFull\obj\Debug\net10.0-windows10.0.17763.0\AIFull.AssemblyInfoInputs.cache
+C:\Develop\CoCoSoSo\CSharp_AIFull\obj\Debug\net10.0-windows10.0.17763.0\AIFull.AssemblyInfo.cs
+C:\Develop\CoCoSoSo\CSharp_AIFull\obj\Debug\net10.0-windows10.0.17763.0\AIFull.csproj.CoreCompileInputs.cache
+C:\Yohoo\CocoSoSo\Debug\net10.0-windows10.0.17763.0\AIFull.exe
+C:\Yohoo\CocoSoSo\Debug\net10.0-windows10.0.17763.0\AIFull.deps.json
+C:\Yohoo\CocoSoSo\Debug\net10.0-windows10.0.17763.0\AIFull.runtimeconfig.json
+C:\Yohoo\CocoSoSo\Debug\net10.0-windows10.0.17763.0\AIFull.dll
+C:\Yohoo\CocoSoSo\Debug\net10.0-windows10.0.17763.0\AIFull.pdb
+C:\Develop\CoCoSoSo\CSharp_AIFull\obj\Debug\net10.0-windows10.0.17763.0\AIFull.csproj.Up2Date
+C:\Develop\CoCoSoSo\CSharp_AIFull\obj\Debug\net10.0-windows10.0.17763.0\AIFull.dll
+C:\Develop\CoCoSoSo\CSharp_AIFull\obj\Debug\net10.0-windows10.0.17763.0\refint\AIFull.dll
+C:\Develop\CoCoSoSo\CSharp_AIFull\obj\Debug\net10.0-windows10.0.17763.0\AIFull.pdb
+C:\Develop\CoCoSoSo\CSharp_AIFull\obj\Debug\net10.0-windows10.0.17763.0\AIFull.genruntimeconfig.cache
+C:\Develop\CoCoSoSo\CSharp_AIFull\obj\Debug\net10.0-windows10.0.17763.0\ref\AIFull.dll

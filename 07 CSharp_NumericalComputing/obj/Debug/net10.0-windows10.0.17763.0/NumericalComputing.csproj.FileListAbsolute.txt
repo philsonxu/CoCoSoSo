@@ -1,0 +1,15 @@
+C:\Yohoo\CocoSoSo\Debug\net10.0-windows10.0.17763.0\NumericalComputing.exe
+C:\Yohoo\CocoSoSo\Debug\net10.0-windows10.0.17763.0\NumericalComputing.deps.json
+C:\Yohoo\CocoSoSo\Debug\net10.0-windows10.0.17763.0\NumericalComputing.runtimeconfig.json
+C:\Yohoo\CocoSoSo\Debug\net10.0-windows10.0.17763.0\NumericalComputing.dll
+C:\Yohoo\CocoSoSo\Debug\net10.0-windows10.0.17763.0\NumericalComputing.pdb
+C:\Develop\CoCoSoSo\CSharp_NumericalComputing\obj\Debug\net10.0-windows10.0.17763.0\NumericalComputing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Develop\CoCoSoSo\CSharp_NumericalComputing\obj\Debug\net10.0-windows10.0.17763.0\NumericalComputing.AssemblyInfoInputs.cache
+C:\Develop\CoCoSoSo\CSharp_NumericalComputing\obj\Debug\net10.0-windows10.0.17763.0\NumericalComputing.AssemblyInfo.cs
+C:\Develop\CoCoSoSo\CSharp_NumericalComputing\obj\Debug\net10.0-windows10.0.17763.0\NumericalComputing.csproj.CoreCompileInputs.cache
+C:\Develop\CoCoSoSo\CSharp_NumericalComputing\obj\Debug\net10.0-windows10.0.17763.0\Numerica.8CB09DA0.Up2Date
+C:\Develop\CoCoSoSo\CSharp_NumericalComputing\obj\Debug\net10.0-windows10.0.17763.0\NumericalComputing.dll
+C:\Develop\CoCoSoSo\CSharp_NumericalComputing\obj\Debug\net10.0-windows10.0.17763.0\refint\NumericalComputing.dll
+C:\Develop\CoCoSoSo\CSharp_NumericalComputing\obj\Debug\net10.0-windows10.0.17763.0\NumericalComputing.pdb
+C:\Develop\CoCoSoSo\CSharp_NumericalComputing\obj\Debug\net10.0-windows10.0.17763.0\NumericalComputing.genruntimeconfig.cache
+C:\Develop\CoCoSoSo\CSharp_NumericalComputing\obj\Debug\net10.0-windows10.0.17763.0\ref\NumericalComputing.dll

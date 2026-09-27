@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.17763.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>x64</PlatformTarget>
+    <BaseOutputPath>C:\Yohoo\CocoSoSo</BaseOutputPath>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Core/BPNNDemo.cs"><Link>Core/BPNNDemo.cs</Link></Compile>
+    <Compile Include="Core/DecisionTreeDemo.cs"><Link>Core/DecisionTreeDemo.cs</Link></Compile>
+    <Compile Include="Core/DemoBase.cs"><Link>Core/DemoBase.cs</Link></Compile>
+    <Compile Include="Core/GeneticAlgorithmDemo.cs"><Link>Core/GeneticAlgorithmDemo.cs</Link></Compile>
+    <Compile Include="Core/KMeansDemo.cs"><Link>Core/KMeansDemo.cs</Link></Compile>
+    <Compile Include="Core/KNNDemo.cs"><Link>Core/KNNDemo.cs</Link></Compile>
+    <Compile Include="Core/LinearRegressionDemo.cs"><Link>Core/LinearRegressionDemo.cs</Link></Compile>
+    <Compile Include="Core/LogisticRegressionDemo.cs"><Link>Core/LogisticRegressionDemo.cs</Link></Compile>
+    <Compile Include="Core/MonteCarloDemo.cs"><Link>Core/MonteCarloDemo.cs</Link></Compile>
+    <Compile Include="Core/NaiveBayesDemo.cs"><Link>Core/NaiveBayesDemo.cs</Link></Compile>
+    <Compile Include="Core/PerceptronDemo.cs"><Link>Core/PerceptronDemo.cs</Link></Compile>
+    <Compile Include="Program.cs"><Link>Program.cs</Link></Compile>
+    <Compile Include="MainForm.cs"><Link>MainForm.cs</Link></Compile>
+    <Compile Include="HtmlConsole.cs"><Link>HtmlConsole.cs</Link></Compile>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.17763.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>x64</PlatformTarget>
+    <BaseOutputPath>C:\Yohoo\CocoSoSo</BaseOutputPath>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Linear\ArrayList.cs" />
+    <Compile Include="Linear\SinglyLinkedList.cs" />
+    <Compile Include="Stack\ArrayStack.cs" />
+    <Compile Include="Stack\LinkedStack.cs" />
+    <Compile Include="Queue\ArrayQueue.cs" />
+    <Compile Include="Queue\LinkedQueue.cs" />
+    <Compile Include="Tree\BinaryTree.cs" />
+    <Compile Include="Tree\BinarySearchTree.cs" />
+    <Compile Include="Graph\AdjacencyMatrixGraph.cs" />
+    <Compile Include="Graph\AdjacencyListGraph.cs" />
+    <Compile Include="Hash\HashTable.cs" />
+    <Compile Include="Heap\MaxHeap.cs" />
+    <Compile Include="Heap\MinHeap.cs" />
+    <Compile Include="Sort\SortAlgorithms.cs" />
+    <Compile Include="Search\SearchAlgorithms.cs" />
+    <Compile Include="String\StringAlgorithms.cs" />
+  </ItemGroup>
+
+</Project>

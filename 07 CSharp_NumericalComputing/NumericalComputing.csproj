@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.17763.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>x64</PlatformTarget>
+    <BaseOutputPath>C:\Yohoo\CocoSoSo</BaseOutputPath>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Core\Matrix.cs" />
+    <Compile Include="Algorithms\LinearSystem.cs" />
+    <Compile Include="Algorithms\Calculus.cs" />
+    <Compile Include="Algorithms\InterpolationODE.cs" />
+    <Compile Include="Algorithms\LeastSquaresEigen.cs" />
+    <Compile Include="UI\ChartHelper.cs" />
+    <Compile Include="UI\HtmlConsole.cs" />
+    <Compile Include="UI\MainForm.cs" />
+  </ItemGroup>
+
+</Project>

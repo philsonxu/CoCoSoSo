@@ -1,0 +1,15 @@
+C:\Yohoo\CocoSoSo\Debug\net10.0-windows10.0.17763.0\DataStructures.exe
+C:\Yohoo\CocoSoSo\Debug\net10.0-windows10.0.17763.0\DataStructures.deps.json
+C:\Yohoo\CocoSoSo\Debug\net10.0-windows10.0.17763.0\DataStructures.runtimeconfig.json
+C:\Yohoo\CocoSoSo\Debug\net10.0-windows10.0.17763.0\DataStructures.dll
+C:\Yohoo\CocoSoSo\Debug\net10.0-windows10.0.17763.0\DataStructures.pdb
+C:\Develop\CoCoSoSo\CSharp_DataStructures\obj\Debug\net10.0-windows10.0.17763.0\DataStructures.GeneratedMSBuildEditorConfig.editorconfig
+C:\Develop\CoCoSoSo\CSharp_DataStructures\obj\Debug\net10.0-windows10.0.17763.0\DataStructures.AssemblyInfoInputs.cache
+C:\Develop\CoCoSoSo\CSharp_DataStructures\obj\Debug\net10.0-windows10.0.17763.0\DataStructures.AssemblyInfo.cs
+C:\Develop\CoCoSoSo\CSharp_DataStructures\obj\Debug\net10.0-windows10.0.17763.0\DataStructures.csproj.CoreCompileInputs.cache
+C:\Develop\CoCoSoSo\CSharp_DataStructures\obj\Debug\net10.0-windows10.0.17763.0\DataStru.B3CA62B8.Up2Date
+C:\Develop\CoCoSoSo\CSharp_DataStructures\obj\Debug\net10.0-windows10.0.17763.0\DataStructures.dll
+C:\Develop\CoCoSoSo\CSharp_DataStructures\obj\Debug\net10.0-windows10.0.17763.0\refint\DataStructures.dll
+C:\Develop\CoCoSoSo\CSharp_DataStructures\obj\Debug\net10.0-windows10.0.17763.0\DataStructures.pdb
+C:\Develop\CoCoSoSo\CSharp_DataStructures\obj\Debug\net10.0-windows10.0.17763.0\DataStructures.genruntimeconfig.cache
+C:\Develop\CoCoSoSo\CSharp_DataStructures\obj\Debug\net10.0-windows10.0.17763.0\ref\DataStructures.dll

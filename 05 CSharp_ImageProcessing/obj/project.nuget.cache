@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Kd/YT3CXfyk=",
+  "success": true,
+  "projectFilePath": "C:\\Develop\\CoCoSoSo\\CSharp_ImageProcessing\\ImageProcessing.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\18438\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.17763.57\\microsoft.windows.sdk.net.ref.10.0.17763.57.nupkg.sha512"
+  ],
+  "logs": []
+}
