@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>C# 网络编程示例 - 测试页面</title>
+    <style>
+        body { font-family: "Microsoft YaHei", Arial, sans-serif; margin: 40px; background:#f5f5f5; }
+        h1 { color: #1976d2; border-bottom: 2px solid #1976d2; padding-bottom:8px; }
+        h2 { color: #333; margin-top:24px; }
+        .info { background:#fff; padding:16px 24px; border-radius:8px; box-shadow:0 2px 4px rgba(0,0,0,0.1); }
+        ul { line-height:1.8; }
+        .code { background:#272822; color:#f8f8f2; padding:12px 16px; border-radius:4px; font-family:Consolas,monospace; }
+        a { color: #1976d2; }
+    </style>
+</head>
+<body>
+    <div class="info">
+        <h1>C# 网络编程示例库</h1>
+        <p>欢迎！这是 <b>TestData/index.html</b> 静态页面，用于 4.3/4.4 HTTP 示例测试。</p>
+
+        <h2>内容列表</h2>
+        <ul>
+            <li>第一章：网络基础 (DNS/IPEndPoint/NetworkStream)</li>
+            <li>第二章：TCP 编程 (Echo/聊天/文件传输/并发服务器)</li>
+            <li>第三章：UDP 编程 (Echo/聊天/文件传输/广播)</li>
+            <li>第四章：HTTP 编程 (GET/POST/下载/简易服务器)</li>
+            <li>第五章：邮件 (SMTP/POP3)</li>
+            <li>第六章：FTP 客户端</li>
+            <li>第七章：异步编程 (APM Begin/End)</li>
+            <li>第八章：高级 (代理/端口扫描/Ping)</li>
+            <li>第九章：工具 (URL编码/二进制序列化)</li>
+        </ul>
+
+        <h2>表单测试（POST）</h2>
+        <form action="/post" method="post">
+            <p>用户名：<input type="text" name="username" value="张三" /></p>
+            <p>密　码：<input type="password" name="password" value="secret" /></p>
+            <p><input type="submit" value="提交测试" /></p>
+        </form>
+
+        <h2>下载测试</h2>
+        <p><a href="/file">下载 50KB 二进制测试文件</a></p>
+
+        <h2>代码片段</h2>
+        <div class="code">
+HttpWebRequest req = (HttpWebRequest)WebRequest.Create(url);<br/>
+req.Method = "GET";<br/>
+using (HttpWebResponse resp = (HttpWebResponse)req.GetResponse())<br/>
+using (Stream s = resp.GetResponseStream()) { /* ... */ }
+        </div>
+
+        <hr/>
+        <p style="color:#888; font-size:12px;">CSharpNetworkProgramming Demo Page &copy; 2026</p>
+    </div>
+</body>
+</html>

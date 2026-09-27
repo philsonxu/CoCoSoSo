@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.17763.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>x64</PlatformTarget>
+    <BaseOutputPath>C:\Yohoo\CocoSoSo</BaseOutputPath>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!--<Compile Include="Properties\AssemblyInfo.cs" />-->
+    <Compile Include="Chapter01_Basics\01_DnsResolve.cs" />
+    <Compile Include="Chapter01_Basics\02_IPEndPoint.cs" />
+    <Compile Include="Chapter01_Basics\03_NetworkStream.cs" />
+    <Compile Include="Chapter02_Tcp\01_TcpEchoServer.cs" />
+    <Compile Include="Chapter02_Tcp\02_TcpEchoClient.cs" />
+    <Compile Include="Chapter02_Tcp\03_TcpChatServer.cs" />
+    <Compile Include="Chapter02_Tcp\04_TcpChatClient.cs" />
+    <Compile Include="Chapter02_Tcp\05_TcpFileTransfer.cs" />
+    <Compile Include="Chapter02_Tcp\06_TcpMultiThreadServer.cs" />
+    <Compile Include="Chapter03_Udp\01_UdpEcho.cs" />
+    <Compile Include="Chapter03_Udp\02_UdpChat.cs" />
+    <Compile Include="Chapter03_Udp\03_UdpFileTransfer.cs" />
+    <Compile Include="Chapter03_Udp\04_UdpBroadcast.cs" />
+    <Compile Include="Chapter04_Http\01_HttpGet.cs" />
+    <Compile Include="Chapter04_Http\02_HttpPost.cs" />
+    <Compile Include="Chapter04_Http\03_HttpDownload.cs" />
+    <Compile Include="Chapter04_Http\04_SimpleHttpServer.cs" />
+    <Compile Include="Chapter05_Mail\01_SmtpSendMail.cs" />
+    <Compile Include="Chapter05_Mail\02_Pop3ReceiveMail.cs" />
+    <Compile Include="Chapter06_Ftp\01_FtpClient.cs" />
+    <Compile Include="Chapter07_Async\01_AsyncTcpServer.cs" />
+    <Compile Include="Chapter07_Async\02_AsyncTcpClient.cs" />
+    <Compile Include="Chapter07_Async\03_AsyncUdp.cs" />
+    <Compile Include="Chapter08_Advanced\01_WebProxy.cs" />
+    <Compile Include="Chapter08_Advanced\02_PortScanner.cs" />
+    <Compile Include="Chapter08_Advanced\03_Ping.cs" />
+    <Compile Include="Chapter09_Utility\01_UrlEncoding.cs" />
+    <Compile Include="Chapter09_Utility\02_Serialization.cs" />
+    <Compile Include="TestDataGenerator.cs" />
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+    <None Include="TestData\test.txt" />
+    <None Include="TestData\test.bin" />
+    <None Include="TestData\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="14.0.1-beta2" />
+  </ItemGroup>
+
+</Project>

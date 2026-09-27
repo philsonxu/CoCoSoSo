@@ -19,6 +19,7 @@ C#是世界上唯一集优雅、高效与实用于一体的最佳编程语言。
 ✅08 C# 人工智能初级编程源程序库
 ✅09 C# 人工智能高级编程源程序库
 ✅10 C# 大语言模型训练与推理源程序库
+✅11 C# 网络编程源程序库
 ```
 
 ## 01 C# 编程入门源程序库
@@ -446,6 +447,85 @@ C#是世界上唯一集优雅、高效与实用于一体的最佳编程语言。
 | 8 | **一键开始训练**：实时进度条、实时损失输出、自动绘制损失曲线 |
 | 9 | **文本生成演示**：训练完成后展示自回归生成的莎士比亚风格文本 |
 
+## 11 C# 网络编程源程序库
 
-# 11 持续学习
+```
+这是一套基于 **.NET Framework 2.0 / C# 2.0** 语法编写的网络编程学习示例集，涵盖 Socket/TCP/UDP/HTTP/Mail/FTP/异步/并发/工具类 等核心知识点，包含可直接编译运行的完整源码与测试数据。
+```
+
+#### 第一章 · 网络编程基础（3 个）
+
+| 编号 | 名称 | 核心知识点 |
+|------|------|-----------|
+| **1.1** | DNS 域名解析 | `Dns.GetHostName`/`GetHostEntry`/`IPHostEntry`、`IPAddress` 常用属性与方法（Loopback/Broadcast/Any/Parse/TryParse/GetAddressBytes）、IPv6 地址族判断 |
+| **1.2** | IPEndPoint 网络端点 | `IPEndPoint` 构造与属性、`MinPort/MaxPort` 端口范围、`Serialize`/`Create` 端点序列化、常用端口对照表、手动解析 `IP:Port` 字符串 |
+| **1.3** | NetworkStream 网络流 | `TcpListener`/`TcpClient` 建立连接、`NetworkStream.Read/Write` 字节数组读写、`ReadByte/WriteByte` 单字节读写、`StreamReader/StreamWriter` 包装、TCP流式特点 |
+
+#### 第二章 · TCP 编程（6 个）
+
+| 编号 | 名称 | 核心知识点 |
+|------|------|-----------|
+| **2.1** | TCP Echo 同步服务器 | `TcpListener.Start/AcceptTcpClient/Stop`、同步阻塞Accept、行协议（`\n`分隔）、回声逻辑、单客户端一次连接模型 |
+| **2.2** | TCP Echo 客户端 | `TcpClient.Connect`、`NetworkStream` 读写、**双线程收发模型**（收/发分离）、控制台交互输入、exit/quit命令 |
+| **2.3** | TCP 多线程群聊服务器 | `Thread` 每客户端一线程、`ArrayList` + `lock(SyncRoot)` 线程安全客户端列表、消息**广播(Broadcast)**、昵称管理、加入/离开通知 |
+| **2.4** | TCP 群聊客户端 | 配合2.3使用、发送/接收双线程、`name:xxx` 改名命令、`quit` 退出命令 |
+| **2.5** | TCP 文件传输 | **自定义协议**：`[1字节命令][4字节长度][N字节数据]`；`BinaryReader/Writer`；文件分块（8KB）上传/下载；客户端/服务器双向流；上传后下载验证一致性 |
+| **2.6** | ThreadPool 并发服务器 | `ThreadPool.QueueUserWorkItem`、`NoDelay/ReceiveTimeout/SendTimeout`、`Interlocked` 原子计数、20并发×5请求内置压测、time/count/echo 多命令路由 |
+
+#### 第三章 · UDP 编程（4 个）
+
+| 编号 | 名称 | 核心知识点 |
+|------|------|-----------|
+| **3.1** | UDP Echo | `UdpClient` 构造（绑定端口/随机端口）、`Receive(ref IPEndPoint)` 与 `Send(byte[],len,ip:port)`、UDP 无连接特性、消息边界保留、自启动服务器-客户端 |
+| **3.2** | UDP 无连接群聊 | 服务器维护 `Hashtable` 客户端 EndPoint 列表、消息循环广播、"心跳"过期清理、多客户端模拟、无连接模型下客户端管理 |
+| **3.3** | UDP 可靠文件传输 | 在 UDP 之上实现**停等协议**：数据分包（512B/块）、序号（seq）、ACK确认、超时重传（1s超时，最多5次）、开始/数据/结束帧 |
+| **3.4** | UDP 广播 | `UdpClient.EnableBroadcast=true`、`IPAddress.Broadcast(255.255.255.255)`、`ReuseAddress`/`ExclusiveAddressUse` 端口复用、多监听者、定向广播原理 |
+
+#### 第四章 · HTTP 编程（4 个）
+
+| 编号 | 名称 | 核心知识点 |
+|------|------|-----------|
+| **4.1** | HTTP GET | `HttpWebRequest`/`HttpWebResponse`、`Method="GET"`、`UserAgent/Accept` 头、`GetResponseStream` 读取、`StatusCode/Headers/Server/ContentType` 读取 |
+| **4.2** | HTTP POST | `Method="POST"`、`ContentType="application/x-www-form-urlencoded"`、`GetRequestStream()` 写入请求体、`HttpUtility.UrlEncode` 表单参数编码、表单解析回显 |
+| **4.3** | HTTP 文件下载 | 分块（4KB）下载、下载进度/速度统计、`AddRange()` Range 头**断点续传**、`FileMode.Append` 追加写入、206 Partial Content 处理 |
+| **4.4** | 简易 HTTP 服务器 | 基于 `TcpListener` 从零实现 HTTP/1.0；解析请求行/请求头/空行；状态行+响应头+响应体；支持 GET/POST；路由：`/` 欢迎页、`/index` 静态页、`/file` 二进制下载、`/post` 回显表单；404响应 |
+
+#### 第五章 · 邮件编程（2 个）
+
+| 编号 | 名称 | 核心知识点 |
+|------|------|-----------|
+| **5.1** | SMTP 发送邮件 | `SmtpClient`/`MailMessage`、`MailAddress`（From/To/CC/Bcc）、`AlternateView` 纯文本+HTML双视图、`Attachment` 附件（文件/内存流）、`Priority`优先级、`DeliveryNotificationOptions`、SMTP服务器配置（EnableSsl/端口/认证）|
+| **5.2** | POP3 收邮件 | 基于 `TcpClient`+`NetworkStream` 手动实现POP3协议、命令脚本演示：USER/PASS/STAT/LIST/RETR/DELE/QUIT、`+OK/-ERR` 响应、邮件头编码（Base64/QuotedPrintable）、POP3命令速查与代码模板 |
+
+#### 第六章 · FTP 编程（1 个）
+
+| 编号 | 名称 | 核心知识点 |
+|------|------|-----------|
+| **6.1** | FTP 客户端 | `FtpWebRequest`/`FtpWebResponse`、`WebRequestMethods.Ftp.*`方法枚举（ListDirectory/DownloadFile/UploadFile/DeleteFile/MakeDirectory/RemoveDirectory/Rename等）、`NetworkCredential`、`UseBinary/UsePassive/KeepAlive`、匿名FTP连通性测试、上传/下载代码模板 |
+
+#### 第七章 · 异步编程（3 个）
+
+| 编号 | 名称 | 核心知识点 |
+|------|------|-----------|
+| **7.1** | APM 异步 TCP 服务器 | **APM 异步编程模型**：`BeginAcceptTcpClient`→AcceptCallback→`BeginRead`→ReadCallback→`BeginWrite`→WriteCallback 回调链、AsyncState 对象封装状态、无阻塞线程、多客户端异步Accept |
+| **7.2** | APM 异步 TCP 客户端 | `TcpClient.BeginConnect/EndConnect`、`NetworkStream.BeginRead/BeginWrite`、`ManualResetEvent` 同步主线程等待异步完成、回调链状态传递 |
+| **7.3** | APM 异步 UDP | `UdpClient.BeginReceive/EndReceive`、`BeginSend/EndSend`、异步回调+状态对象、异步收发全流程 |
+
+#### 第八章 · 高级主题（3 个）
+
+| 编号 | 名称 | 核心知识点 |
+|------|------|-----------|
+| **8.1** | Web 代理设置 | `WebProxy`、`WebRequest.DefaultWebProxy` 系统默认代理、`Proxy=null` 直连、`BypassProxyOnLocal`、`BypassList` 绕过列表、代理 `Credentials` 认证、自动代理检测 |
+| **8.2** | 端口扫描器 | `TcpClient.BeginConnect`+`WaitOne(超时)` 端口扫描、`ThreadPool` 并发扫描、端口开放/关闭判断、常用端口服务名对照、扫描结果排序汇总（仅扫描本机 127.0.0.1）|
+| **8.3** | Ping (ICMP) | `System.Net.NetworkInformation.Ping`、`PingOptions`(TTL/DontFragment)、`PingReply`(Status/RoundtripTime/Address/Options/Buffer)、连续Ping统计（发送/接收/丢失率/最小/最大/平均RTT）|
+
+#### 第九章 · 工具类（2 个）
+
+| 编号 | 名称 | 核心知识点 |
+|------|------|-----------|
+| **9.1** | URL/HTML 编解码 | `HttpUtility.UrlEncode/UrlDecode`、`UrlPathEncode`（路径编码）、`HtmlEncode/HtmlDecode`（XSS防护）、`ParseQueryString` 解析查询字符串、UTF-8 vs GB2312编码差异 |
+| **9.2** | 二进制序列化 | `[Serializable]` 特性、`BinaryFormatter.Serialize/Deserialize`、`MemoryStream` 中转、自定义 `NetMessage` 网络消息对象设计、**4字节长度头+消息体**的网络帧协议模拟、Hashtable承载Headers |
+
+
+# 12 持续学习
 
